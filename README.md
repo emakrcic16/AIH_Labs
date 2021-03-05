@@ -1,1 +1,1 @@
-# AIH_Lab1
+# AI for Health
