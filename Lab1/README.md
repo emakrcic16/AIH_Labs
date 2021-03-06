@@ -6,4 +6,4 @@ K-fold cross validation was performed on 90% of the data. Meaning the test set w
 
 # The Model
 The constructed model is shown in the figure below. Where the model contained of two 3D convolutional blocks. The first convolutional layer (conv1_1) has 8 filters and the second layer(conv1_2) has 16 filters. The convolutional blocks was of size 3x3x3. Followed by 3D max pooling layer with size of 3x3x3 and batch normalization. This was then fed into two layers of 3D convolutional blocks with 32 respectively 64 filters to be later fed in an additional layer of 3D max pooling. This was later flattened before moving on to two connected layers followed by dropout. The first layer in the connected layer had 4096 hidden nodes, and the second layer had 1024 hidden nodes. At last fed to the output layer with activation function SoftMax.
-![The implemented model](AIH_Labs/Lab1/Result/TheModel.png)
+![The implemented model](/Lab1/Result/TheModel.png)
