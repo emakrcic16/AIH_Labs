@@ -8,4 +8,4 @@ Last part of the lab was to visualize what the model had learned and understand 
 This by plotting the activation's of the convolutional layers, plot the weights of the fully connected layers, explaining model decisions using SHAP and visualizing saliency maps. 
 
 ## Model
-![The implemented model](/Lab2/Result/TheModel.png)
+![The implemented model](/Lab2/Result/TheModel .png)
